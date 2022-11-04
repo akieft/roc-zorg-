@@ -1,0 +1,479 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// No class
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    margin: 0 0 100px;
+    /* bottom = footer height */
+    padding: 25px;
+}
+
+.padding{
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+// Footer
+footer{
+    background-color: #f9f9fa;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 150px;
+    width: 100%;
+    overflow:hidden;
+}
+
+.bg-color-footer{
+    background-color: $dark-grey;
+}
+
+// Padding Marging
+.pb20{
+    padding-bottom: 20px;
+}
+
+.margin0{
+    margin: 0px;
+}
+
+.mt0{
+    margin-top: 0px !important;
+}
+
+.mt30{
+    margin-top: 30px;
+}
+
+.mt20{
+    margin-top: 20px;
+}
+
+.mb30{
+    margin-bottom: 30px;
+}
+
+// Text
+.title-anthracite{
+    font-family: 'Arial', 'sans-serif';
+    font-weight: bold;
+    font-size: 24px;
+    color: $dark-anthracite;
+}
+
+.title-light-anthracite{
+    font-family: 'Arial', 'sans-serif';
+    font-weight: bold;
+    font-size: 24px;
+    color: $light-anthracite;
+}
+
+.title-grey{
+    font-family: 'Arial', 'sans-serif';
+    font-weight: bold;
+    font-size: 24px;
+    color: $light-grey;
+}
+
+.title-dark-grey{
+    font-family: 'Arial', 'sans-serif';
+    font-weight: bold;
+    font-size: 24px;
+    color: $dark-grey;
+}
+
+
+.sub-anthracite{
+    font-family: 'Arial', 'sans-serif';
+    font-size: 20px;
+    font-weight: bold;
+    color: $anthracite;
+}
+
+.sub-dark-anthracite{
+    font-family: 'Arial', 'sans-serif';
+    font-size: 20px;
+    font-weight: bold;
+    color: $dark-anthracite;
+}
+
+.sub-light-grey{
+    font-family: 'Arial', 'sans-serif';
+    font-size: 20px;
+    font-weight: bold;
+    color: $light-grey;
+}
+
+.sub-light-white{
+    font-family: 'Arial', 'sans-serif';
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.sub-grey{
+    font-family: 'Arial', 'sans-serif';
+    font-size: 20px;
+    font-weight: bold;
+    color: $grey;
+}
+
+.sub-dark-grey{
+    font-family: 'Arial', 'sans-serif';
+    font-size: 20px;
+    font-weight: bold;
+    color: $dark-grey;
+}
+
+.plat-anthracite{
+    font-family: 'Arial', 'sans-serif';
+    font-size: 16px;
+    font-weight: normal;
+    color: $anthracite;
+}
+
+.plat-dark-anthracite{
+    font-family: 'Arial', 'sans-serif';
+    font-size: 16px;
+    font-weight: normal;
+    color: $dark-anthracite;
+}
+
+.plat-dark-anthracite-bold{
+    font-family: 'Arial', 'sans-serif';
+    font-size: 16px;
+    font-weight: bold;
+    color: $dark-anthracite;
+}
+
+.plat-grey{
+    font-family: 'Arial', 'sans-serif';
+    font-size: 16px;
+    font-weight: normal;
+    color: $grey;
+}
+
+.plat-bold-grey{
+    font-family: 'Arial', 'sans-serif';
+    font-size: 16px;
+    font-weight: bold;
+    color: $grey;
+}
+
+.plat-dark-grey{
+    font-family: 'Arial', 'sans-serif';
+    font-size: 16px;
+    font-weight: normal;
+    color: $dark-grey;
+}
+
+// Icons
+
+container {
+    position: relative;
+    min-height: 100vh;
+}
+@media (min-width: 1200px) {
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 1500px!important;
+    }
+}
+.vertical-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+// Background Colors
+.blue{
+    background-color: $blue;
+}
+
+.light-blue{
+    background-color: $light-blue;
+}
+
+.dark-blue{
+    background-color: $dark-blue;
+}
+
+.orange{
+    background-color: $orange;
+}
+
+.orange-important{
+    background-color: $dark-orange !important;
+}
+
+.light-orange{
+    background-color: $light-orange;
+}
+
+.dark-orange{
+    background-color: $dark-orange;
+}
+
+.grey{
+    background-color: $grey;
+}
+
+.light-grey{
+    background-color: $light-grey;
+}
+
+.dark-grey{
+    background-color: $dark-grey;
+}
+
+.anthracite{
+    background-color: $anthracite;
+}
+
+.light-anthracite{
+    background-color: $light-anthracite;
+}
+
+.dark-anthracite{
+    background-color: $dark-anthracite;
+}
+
+// Buttons
+.button-orange{
+    background-color: $orange;
+}
+
+.button-orange:hover{
+    background-color: $dark-orange;
+    color: $dark-grey
+}
+
+.button-blue{
+    background-color: $blue;
+}
+
+.button-blue:hover{
+    background-color: $dark-blue;
+}
+
+.button-anthracite{
+    background-color: $anthracite;
+}
+
+.button-anthracite:hover{
+    background-color: $dark-anthracite;
+}
+
+.nav-item a:hover {
+    border-bottom: 1px solid darkorange;
+}
+
+// Welcome
+@media only screen and (min-width: 900px) {
+    .bg-image {
+        background-image: url("https://magdalena.org.za/wp-content/uploads/2017/05/Black-transparent-background.png"), url('https://www.rocvanflevoland.nl/getmedia/dc886568-23ac-4a37-a408-07fe3100c2df/Agorawagenplein-1_1.jpg.aspx?width=477&height=335&ext=.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1000px;
+    }
+    .block-orange {
+        background-color: $dark-orange;
+        width: 600px;
+        margin-top: 300px;
+        margin-left: 150px;
+    }
+
+    .text {
+        text-align: left;
+        padding: 30px;
+        color: white;
+    }
+    .block-one {
+        margin-top: 10px;
+        margin-right: 10px;
+        background-color: $dark-blue;
+    }
+    .block-three {
+        margin-top: 10px;
+        margin-left: 10px;
+        background-color: $orange;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .bg-image {
+        background-image: url("https://magdalena.org.za/wp-content/uploads/2017/05/Black-transparent-background.png"), url('https://www.rocvanflevoland.nl/getmedia/dc886568-23ac-4a37-a408-07fe3100c2df/Agorawagenplein-1_1.jpg.aspx?width=477&height=335&ext=.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .block-orange {
+        background-color: $dark-orange;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .text {
+        text-align: left;
+        padding: 30px;
+        color: white;
+    }
+    .block-one {
+        background-color: $dark-blue;
+        margin-top: 10px;
+    }
+    .block-three {
+        background-color: $orange;
+        margin-top: 10px;
+    }
+
+}
+
+.text-column {
+    text-align: left;
+    margin: 30px;
+    color: white;
+}
+
+.block-two {
+    background-color: $anthracite;
+    margin-top: 10px;
+}
+
+/* coach page form and table */
+
+.container-tablecoach{
+    border-style: solid;
+    border-color: darkorange;
+    padding: 25px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.container-formcoach{
+    border-style: solid;
+    border-color: darkorange;
+    margin-top: 30px;
+}
+
+.formcoach{
+    padding-left: 280px;
+    padding-top: 20px;
+}
+
+.labelcoach{
+    padding-right: 10px;
+    padding-top: 8px;
+}
+// Design form
+input {
+    margin-bottom:5px;
+    padding:10px;
+    width: 100%;
+    border:1px solid $light-anthracite;
+}
+
+textarea {
+    margin-bottom:5px;
+    padding:10px;
+    width: 100%;
+    border:1px solid $light-anthracite;
+}
+
+.btn {
+    cursor:pointer;
+    color: white;
+    background-color: $dark-orange;
+}
+
+.btn:hover {
+    color: white;
+    background-color: $orange;
+}
+
+.form {
+    padding: 20px;
+}
+
+// Design table
+.table-head {
+    background-color: $dark-orange;
+    color: white;
+}
+
+// CSS
+
+//Internship page
+
+.center-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: transparent;
+    color: $anthracite;
+    opacity: 0.6;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    width: 100%;
+    &:hover{
+        opacity: 1;
+        border-bottom: 1px solid darkorange;
+    }
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown-content a:hover {color: #600808;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+// Done X - Y
+
+.donex{
+    background-color:rgb(255, 41, 50);
+}
+
+.donev{
+    background-color:MediumSeaGreen;
+}
